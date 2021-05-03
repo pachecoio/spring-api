@@ -1,7 +1,6 @@
 package dev.thiagopacheco.springbootapi.security.filters;
 
 import dev.thiagopacheco.springbootapi.security.JwtUtils;
-import dev.thiagopacheco.springbootapi.security.UserDetailsService;
 import dev.thiagopacheco.springbootapi.security.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
